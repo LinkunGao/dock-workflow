@@ -1,0 +1,6 @@
+number: 262
+param_string: "hahaha"
+param_int_list: [1, 2, 3]
+param_file:
+  class: File
+  path: path/to/that/file.py
