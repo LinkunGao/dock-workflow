@@ -2,7 +2,11 @@
 cwlVersion: v1.0
 class: Workflow
 inputs:
-  number: int
+  number: 
+    type: int
+    default: 262
+
+  
 outputs:
   final_answer:
     outputSource: sparc_data_tool/output_file
